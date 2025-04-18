@@ -1,0 +1,11 @@
+return {} -- -- this pacakge is primarily for the statusline.
+-- -- We use it in conjunction with lualine and tmux packages to get the status in the right spot in the bottom center
+-- return {
+--   'vimpostor/vim-tpipeline',
+--   config = function()
+--     -- Automatically embed vim status into tmux
+--     vim.g.tpipeline_autoembed = 1
+--     vim.g.tpipeline_restor = 1
+--     vim.g.tpipeline_clearstl = 1
+--   end,
+-- }
