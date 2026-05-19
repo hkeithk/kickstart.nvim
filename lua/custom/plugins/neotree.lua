@@ -56,14 +56,17 @@ return {
       filtered_items = {
         visible = false,
         show_hidden_count = true,
-        hide_dotfiles = true,
-        hide_gitignored = true,
+        hide_dotfiles = false,
+        hide_gitignored = false,
         hide_by_name = {
           -- '.git',
           -- '.DS_Store',
           -- 'thumbs.db',
         },
-        never_show = {},
+        never_show = {
+          '.git',
+          '.DS_Store',
+        },
       },
     },
     window = {
